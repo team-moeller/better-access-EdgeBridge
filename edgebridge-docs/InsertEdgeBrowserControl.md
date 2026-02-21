@@ -8,5 +8,13 @@ Select the EdgeBrowser control from the control list.
 Drag a rectangle onto the form. Cancel the upcomming dialog. The control will be inserted.  
 ![InsertEdgeBrowserControl](../images/InsertEdgeBrowserControl.png)
 
-No information is displayed in its current state.
+No information is displayed in its current state.  
+![InsertEdgeBrowserControl](../images/EmptyEdgeBrowserControl.png)
 
+**Step 3:**  
+Add a the following information to the control source property:  
+```VBA
+="https://msaccess/C:\Folder\Subfolder\files\Demo_01.html"
+```  
+As a result the file is displayed in the EdgeBrowser control:  
+![InsertEdgeBrowserControl](../images/LoadedEdgeBrowserControl.png)
