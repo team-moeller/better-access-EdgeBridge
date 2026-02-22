@@ -17,4 +17,11 @@ Add a the following information to the control source property:
 ="https://msaccess/C:\Folder\Subfolder\files\Demo_01.html"
 ```  
 As a result the file is displayed in the EdgeBrowser control:  
-![InsertEdgeBrowserControl](../images/LoadedEdgeBrowserControl.png)
+![InsertEdgeBrowserControl](../images/LoadedEdgeBrowserControl.png)  
+
+**Tip**  
+To use relative paths, the following expression can be used.  
+``` VBA
+="https://msaccess/" & [currentproject].[Path] & "\Files\demo_01.html"
+```
+In this example, the HTML file is searched for in the Files folder within the database directory.
