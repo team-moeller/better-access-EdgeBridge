@@ -1,3 +1,5 @@
+## Add simple content to website
+  
 To add some simple content to the website use the following steps:  
 
 **Step 1:**  
