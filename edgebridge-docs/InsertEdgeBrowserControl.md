@@ -20,7 +20,7 @@ As a result the file is displayed in the EdgeBrowser control:
 ![InsertEdgeBrowserControl](../images/LoadedEdgeBrowserControl.png)  
 
 **Tip**  
-To use relative paths, the following expression can be used.  
+To use relative paths, the following expression can be used:  
 ``` VBA
 ="https://msaccess/" & [currentproject].[Path] & "\Files\demo_01.html"
 ```
