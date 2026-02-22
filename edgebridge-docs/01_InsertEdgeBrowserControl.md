@@ -1,4 +1,4 @@
-##Insert EdgeBrowser control
+## Insert EdgeBrowser control
 
 This doc explains how to insert an EdgeBrowser control to a form and how to set its properties so that a simple HTML file is displayed in it.
 
