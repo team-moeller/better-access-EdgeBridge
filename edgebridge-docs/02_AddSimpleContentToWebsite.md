@@ -18,7 +18,7 @@ Add the following code to the Click event:
 ````
 
 **Explaination VBA-Code:**  
-First, we add the necessary JavaScript code to the variable strScript to add simple content to the website.  
+First, we add the necessary JavaScript code to the variable *strScript* to add simple content to the website.  
 This code is then executed using the ExecuteJavaScript command.  
 
 **Explaination JavaScript-Code:**
